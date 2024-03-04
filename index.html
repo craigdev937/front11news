@@ -2,13 +2,162 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" sizes="32x32">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Frontend Mentor | News homepage</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Frontend Mentor</h1>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <img 
+                class="logo__img"
+                alt="W. logo"
+                src="/logo.svg"   
+            />
+        </div>
+        <button class="menu hidden">
+            <img
+                class="menu__img" 
+                alt="Icon Menu"
+                src="/icon-menu.svg"   
+            />
+        </button>
+        <div class="bg-transparency bg"></div>
+        <nav class="navbar">
+            <ul class="navbar__ul">
+                <li class="navbar__link">Home</li>
+                <li class="navbar__link">New</li>
+                <li class="navbar__link">Popular</li>
+                <li class="navbar__link">Trending</li>
+                <li class="navbar__link">Categories</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main">
+        <div class="main__container">
+            <section class="hero">
+                <img src="/image-web-3-desktop.jpg" alt="Image with Paterns" />
+                <aside class="hero__container">
+                    <h1 class="hero__title">The Bright Future of Web 3.0?</h1>
+                    <div class="hero__box">
+                        <p class="hero__text">
+                            We dive into the next evolution of 
+                            the web that claims to put the power 
+                            of the platforms back into the hands 
+                            of the people.  But is it really 
+                            fulfilling its promise?
+                        </p>
+                        <button class="hero__button">Read more</button>
+                    </div>
+                </aside>
+            </section>
+
+            <section class="new">
+                <h3>New</h3>
+                <aside class="new__box">
+                    <p class="new__title">
+                        Hydrogen VS Electric Cars
+                    </p>
+                    <p class="new__info">
+                        Will hydrogen-fueled 
+                        cars ever catch up to EVs?
+                    </p>
+                </aside>
+
+                <aside class="new__box">
+                    <p class="new__title">
+                        The Downsides of AI Artistry
+                    </p>
+                    <p class="new__info">
+                        What are the possible adverse 
+                        effects of on-demand AI 
+                        image generation?
+                    </p>
+                </aside>
+
+                <aside class="new__box">
+                    <p class="new__title">
+                        Is VC Funding Drying Up?
+                    </p>
+                    <p class="new__info">
+                        Private funding by VC firms 
+                        is down 50% YOY. We take 
+                        a look at what that means.
+                    </p>
+                </aside>
+            </section>
+
+            <article class="num">
+                <img
+                    class="num__img" 
+                    alt="Retro PC's"
+                    src="/image-retro-pcs.jpg"   
+                />
+                <aside class="num__box">
+                    <p class="num__number">01</p>
+                    <p class="num__title">Reviving Retro PCs</p>
+                    <p class="num__info">
+                        What happens when old PCs 
+                        are given modern upgrades?
+                    </p>
+                </aside>
+            </article>
+
+            <article class="num">
+                <img
+                    class="num__img" 
+                    alt="Laptop Keyboard"
+                    src="/image-top-laptops.jpg"   
+                />
+                <aside class="num__box">
+                    <p class="num__number">02</p>
+                    <p class="num__title">Top 10 Laptops of 2022</p>
+                    <p class="num__info">
+                        Our best picks for various 
+                        needs and budgets.
+                    </p>
+                </aside>
+            </article>
+
+            <article class="num">
+                <img
+                    class="num__img" 
+                    alt="Gaming"
+                    src="/image-gaming-growth.jpg"   
+                />
+                <aside class="num__box">
+                    <p class="num__number">03</p>
+                    <p class="num__title">The Growth of Gaming</p>
+                    <p class="num__info">
+                        How the pandemic has 
+                        sparked fresh opportunities.
+                    </p>
+                </aside>
+            </article>
+        </div>
+    </main>
+        
+    <!-- Footer Section with Links -->
+    <footer class="attribution">
+        <p>
+            Challenge for
+            <a 
+                href="https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/hub" 
+                target="_blank"
+                >Frontend Mentor
+            </a>
+            created by 
+            <a 
+                href="https://www.frontendmentor.io/profile/craigdev937"
+                target="_blank"
+                >Craig Johnson
+            </a>
+        </p>
+    </footer>
     <script type="module" src="main.js"></script>
 </body>
 </html>
