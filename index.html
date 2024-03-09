@@ -10,21 +10,21 @@
 <body>
     <!-- Header Section -->
     <header class="header">
-        <div class="logo">
+        <div class="header__logo">
             <img 
                 class="logo__img"
                 alt="W. logo"
                 src="/logo.svg"   
             />
         </div>
-        <button class="menu hidden">
+        <button class="menu__btn hidden">
             <img
-                class="menu__img" 
+                class="menu__img open" 
                 alt="Icon Menu"
                 src="/icon-menu.svg"   
             />
         </button>
-        <div class="bg-transparency bg"></div>
+        <aside class="nav__transparency nav"></aside>
         <nav class="navbar">
             <ul class="navbar__ul">
                 <li class="navbar__link">Home</li>
@@ -39,12 +39,17 @@
     <!-- Main Section -->
     <main class="main">
         <div class="main__container">
+            <!-- HERO SECTION -->
             <section class="hero">
-                <img src="/image-web-3-desktop.jpg" alt="Image with Paterns" />
+                <img
+                    class="hero__image"
+                    alt="Image with Paterns"  
+                    src="/image-web-3-desktop.jpg" 
+                />
                 <aside class="hero__container">
                     <h1 class="hero__title">The Bright Future of Web 3.0?</h1>
                     <div class="hero__box">
-                        <p class="hero__text">
+                        <p class="hero__info">
                             We dive into the next evolution of 
                             the web that claims to put the power 
                             of the platforms back into the hands 
