@@ -10,18 +10,28 @@
 <body>
     <!-- HEADER SECTION -->
     <header class="header">
-        <img
-            class="header__image" 
-            alt="W Logo"
-            src="/logo.svg"
-        />
+        <div class="header__logo">
+            <img 
+                class="logo__img"
+                alt="W. logo"
+                src="/logo.svg"   
+            />
+        </div>
+        <button class="menu__btn hidden">
+            <img
+                class="menu__img open" 
+                alt="Icon Menu"
+                src="/icon-menu.svg"   
+            />
+        </button>
+        <aside class="nav__transparency nav"></aside>
         <nav class="navbar">
             <ul class="navbar__ul">
-                <li class="navbar__links">Home</li>
-                <li class="navbar__links">New</li>
-                <li class="navbar__links">Popular</li>
-                <li class="navbar__links">Trending</li>
-                <li class="navbar__links">Categories</li>
+                <li class="navbar__link">Home</li>
+                <li class="navbar__link">New</li>
+                <li class="navbar__link">Popular</li>
+                <li class="navbar__link">Trending</li>
+                <li class="navbar__link">Categories</li>
             </ul>
         </nav>
     </header>
